@@ -1,0 +1,47 @@
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.innercontainer {
+    display: flex;
+    justify-content: space space-between;
+    gap: 20px;
+    padding: 20px;
+    height: 50vh;
+}
+.left{
+    width: 500px;
+}
+.left>img {
+    width: 300px !important;
+}
+.right{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.right>button{
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: fit-content;
+    padding: 10px 26px;
+}
+.right>button:hover{
+    opacity: 0.8;
+}
+.right>button:active{
+    opacity: 0.5;
+}
+.SocialMedia{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: gray;
+}
+.SocialMedia>img {
+    width: 50px;
+}

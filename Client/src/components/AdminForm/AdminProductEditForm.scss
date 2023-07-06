@@ -1,0 +1,23 @@
+.productForm {
+    margin: 50px;
+    background-color: white;
+    width: 40%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+    gap: 20px;
+    input{
+        padding: 5px 10px;
+        &[type="file"]{
+            padding: 0px;
+        }
+    }
+}
+
+.formSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}

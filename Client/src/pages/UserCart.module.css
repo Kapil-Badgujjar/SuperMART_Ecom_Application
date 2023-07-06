@@ -1,0 +1,27 @@
+/* .cartlist{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 200px;
+}
+
+.list{
+    background-color: white;
+    padding: 5px 20px;
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+.details{
+    width: 600px;
+}
+.quantity{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+} */

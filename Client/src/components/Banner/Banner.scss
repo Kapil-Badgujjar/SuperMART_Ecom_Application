@@ -1,0 +1,39 @@
+.banner-container{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .banner{
+        display: flex;
+        padding: 50px 100px;
+        margin: 15px 100px;
+        border-radius: 20px;
+        color: white;
+        background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 38, 96));
+        .bannerdetails {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            width: 40%;
+            margin-left: 10%;
+            span {
+                color: yellow;
+                font-size: 2rem;
+            }
+            button {
+                font-size: 1.3rem;
+                width: fit-content;
+                color: yellow;
+                background-color: transparent;
+                border: 2px solid yellow;
+                padding: 10px 20px;
+            }
+        }
+        .bannerimage {
+            margin-left: 30%;
+            width: 400px;
+        }
+    }
+}

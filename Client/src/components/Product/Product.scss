@@ -1,0 +1,79 @@
+.productCard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    padding:0px 0px 5px 0px;
+    border-radius: 5px;
+    outline: 1px solid darkgray;
+    width: 300px;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    img {
+        width: 300px;
+        height: 300px;
+        margin: 0px 5px;
+        border-radius: 5px;
+        &:hover{
+            border-radius: 0px;
+            transform: scale(1.03);
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+            animation-name: scaleimage;
+            animation-duration: 0.3s;
+        }
+    }
+    div{
+        width: 280px;
+        .price {
+            color: darkgray;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+.productRow {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    padding:5px 0px;
+    border-radius: 5px;
+    outline: 1px solid darkgray;
+    width: 90%;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+    font-size: 1.3rem;
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px;
+        border-radius: 5px;
+    }
+    img:hover{
+        border-radius: 0px;
+        transform: scale(1.03);
+        box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
+        animation-name: scaleimage;
+        animation-duration: 0.3s;
+    }
+    span{
+        width: 300px;
+    }
+    div{
+        width: 200px;
+        .price {
+            color: darkgray;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+@keyframes scaleimage {
+    0%   {transform: scale(1);}
+    100%   {transform: scale(1.03);}
+  }

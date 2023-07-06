@@ -1,0 +1,33 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    padding-right: 100px;
+    color: white;
+    background-color: black;
+    .logoSection {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: rgb(255, 249, 182);
+        span{
+            font-size: 1.2rem;
+            color: rgb(22, 134, 255);
+        }
+    }
+    .controlSection {
+        display: flex;
+        gap: 20px;
+        a, span{
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            &:hover {
+                color: rgb(0, 0, 0);
+                background-color: orange;
+            }
+        }
+    }
+}
